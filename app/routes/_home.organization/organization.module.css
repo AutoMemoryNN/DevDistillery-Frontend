@@ -1,0 +1,7 @@
+.main-container {
+	@apply flex min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 dark:from-gray-900 dark:to-gray-800;
+}
+
+.aside-nav {
+	@apply w-52 bg-gray-100 p-4 border-r border-transparent bg-transparent;
+}

@@ -69,7 +69,8 @@
 				"useNamingConvention": {
 					"level": "error",
 					"options": {
-						"enumMemberCase": "CONSTANT_CASE"
+						"enumMemberCase": "CONSTANT_CASE",
+						"strictCase": false
 					}
 				},
 				"useImportType": "off"

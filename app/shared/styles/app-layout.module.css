@@ -1,0 +1,27 @@
+/* Background for mi app layout */
+.app-container {
+	@apply min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 dark:from-gray-900 dark:to-gray-800;
+}
+
+.decorative-box {
+	@apply flex flex-col items-center justify-center rounded-lg shadow-lg bg-white;
+}
+
+.decorative-box-sm {
+	@apply w-1/4 min-w-32 max-w-64 aspect-square flex flex-col items-center justify-center rounded-lg shadow-lg bg-white    
+        space-y-2 p-2;
+}
+
+.decorative-box-md {
+	@apply w-1/3 min-w-48 max-w-72 aspect-square flex flex-col items-center justify-center rounded-lg shadow-lg bg-white
+        space-y-3 p-3;
+}
+
+.decorative-box-lg {
+	@apply w-2/5 min-w-60 max-w-96 aspect-square flex flex-col items-center justify-center rounded-lg shadow-lg bg-white
+        space-y-4 p-4;
+}
+
+.welcomeText {
+	@apply text-2xl sm:text-3xl font-thin text-gray-900 dark:text-white;
+}
